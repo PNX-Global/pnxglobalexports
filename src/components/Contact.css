@@ -1,0 +1,133 @@
+.contact-section {
+  padding: 60px 0;
+  background: var(--primary);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.contact-intro {
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detail-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background: var(--secondary-glow);
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.detail-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.detail-item p {
+  color: var(--text-dim);
+}
+
+.contact-form-area {
+  background: var(--primary-light);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.form-group input, .form-group textarea {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 15px;
+  border-radius: 4px;
+  color: var(--white);
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--secondary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.btn-submit {
+  background: var(--secondary);
+  color: var(--primary);
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition);
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background: var(--white);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .contact-form-area {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
