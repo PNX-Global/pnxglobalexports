@@ -2,24 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ContainerDrop from './ContainerDrop';
 import truckImg from '../assets/truck.jpg';
-import './Logistics.css';
+import './Exports.css';
 
-const Logistics = () => {
+const Exports = () => {
   return (
-    <section id="logistics" className="logistics-section">
+    <section id="exports" className="exports-section">
       <div className="section-container">
-        <div className="logistics-header">
+        <div className="exports-header">
           <h4 className="section-subtitle">Global Network</h4>
           <h2 className="section-title">We Move Anything, Anywhere</h2>
         </div>
 
-        <div className="logistics-grid">
-          <div className="logistics-text">
+        <div className="exports-grid">
+          <div className="exports-text">
             <p className="highlight-text">
-              Our logistical framework is designed for maximum efficiency and minimum risk. We operate across 6 continents, ensuring your goods are tracked from origin to destination.
+              Our export framework is designed for maximum efficiency and minimum risk. We operate across 6 continents, ensuring your goods are tracked from origin to destination.
             </p>
             
-            <div className="logistics-features">
+            <div className="exports-features">
               <div className="feat-item">
                 <span className="dot"></span>
                 <p>Real-time vessel tracking and updates</p>
@@ -46,11 +46,11 @@ const Logistics = () => {
                 <div className="pulse-point" style={{ top: '60%', left: '80%' }}></div>
                 <div className="pulse-point" style={{ top: '30%', left: '20%' }}></div>
               </div>
-              <img src={truckImg} alt="Logistics Network" className="map-static-img" />
+              <img src={truckImg} alt="Exports Network" className="map-static-img" />
             </div>
           </div>
 
-          <div className="logistics-animation">
+          <div className="exports-animation">
             <h3 className="anim-label">Loading in Progress...</h3>
             <ContainerDrop delay={0.2} />
             <div style={{ height: '50px' }}></div>
@@ -62,4 +62,4 @@ const Logistics = () => {
   );
 };
 
-export default Logistics;
+export default Exports;

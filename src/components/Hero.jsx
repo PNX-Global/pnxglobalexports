@@ -27,7 +27,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="hero-tagline"
           >
-            Reliable Global Trade Solutions. Seamless Logistics. Guaranteed Satisfaction.
+            Reliable Global Trade Solutions. Seamless Exports. Guaranteed Satisfaction.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}

@@ -12,7 +12,7 @@ const services = [
   {
     icon: <Truck size={40} />,
     title: 'Land Transport',
-    description: 'Reliable door-to-door delivery with our extensive network of land logistics and trucking services.'
+    description: 'Reliable door-to-door delivery with our extensive network of land exports and trucking services.'
   },
   {
     icon: <Globe size={40} />,

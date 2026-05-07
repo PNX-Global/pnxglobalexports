@@ -1,14 +1,14 @@
-.logistics-section {
+.exports-section {
   padding: 60px 0;
   background: var(--primary-light);
 }
 
-.logistics-header {
+.exports-header {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.logistics-grid {
+.exports-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
@@ -22,7 +22,7 @@
   line-height: 1.6;
 }
 
-.logistics-features {
+.exports-features {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -106,11 +106,11 @@
 }
 
 @media (max-width: 992px) {
-  .logistics-grid {
+  .exports-grid {
     grid-template-columns: 1fr;
     gap: 60px;
   }
-  .logistics-features {
+  .exports-features {
     grid-template-columns: 1fr;
   }
 }

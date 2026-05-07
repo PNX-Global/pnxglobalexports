@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="section-container about-grid">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -16,14 +16,14 @@ const About = () => {
         >
           <div className="image-stack">
             <img src={shipImg} alt="Shipping" className="img-main" />
-            <div className="experience-badge">
+            {/* <div className="experience-badge">
               <span className="years">10+</span>
               <span className="text">Years of Excellence</span>
-            </div>
+            </div> */}
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -36,18 +36,18 @@ const About = () => {
             At <strong>PNX Global Exports</strong>, we bridge the gap between Indian manufacturers and the global market. Based in India, we specialize in the seamless export of premium goods, ensuring that quality reaches every corner of the world.
           </p>
           <p className="about-description">
-            With a decade of experience in logistics and trade compliance, we handle the complexities so you can focus on growth. From sourcing to final delivery, our commitment to reliability and excellence is unwavering.
+            We handle the complexities so you can focus on growth. From sourcing to final delivery, our commitment to reliability and excellence is unwavering.
           </p>
-          
+
           <div className="about-stats">
             <div className="stat-item">
               <h3>50+</h3>
               <p>Countries Served</p>
             </div>
-            <div className="stat-item">
+            {/* <div className="stat-item">
               <h3>1000+</h3>
               <p>Shipments Handled</p>
-            </div>
+            </div> */}
             <div className="stat-item">
               <h3>99%</h3>
               <p>On-Time Delivery</p>

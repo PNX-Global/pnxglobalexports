@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="logo-text">PNX <span>GLOBAL</span></div>
           <p className="brand-description">
-            Your trusted partner in global trade and logistics. Connecting India to the world with excellence and reliability since 2014.
+            Your trusted partner in global trade and exports. Connecting India to the world with excellence and reliability since 2014.
           </p>
           <div className="social-links">
             <a href="#"><Facebook size={20} /></a>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#logistics">Logistics</a></li>
+            <li><a href="#exports">Exports</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

@@ -17,7 +17,7 @@ const Contact = () => {
             <h4 className="section-subtitle">Get In Touch</h4>
             <h2 className="section-title">Ready to Start Your Global Journey?</h2>
             <p className="contact-intro">
-              Whether you're looking to export products from India or need a reliable logistics partner, we're here to help. Reach out to us for a free consultation.
+              Whether you're looking to export products from India or need a reliable export partner, we're here to help. Reach out to us for a free consultation.
             </p>
 
             <div className="contact-details">
